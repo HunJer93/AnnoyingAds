@@ -1,0 +1,84 @@
+/*container holding the welcome banner and heading*/
+.headContainer{
+	position: relative;
+	text-align: center;
+	color:white;
+}
+.header{
+	color: #f803fc;
+	position: absolute;
+	top: 13vw;
+	left: 50%;
+	transform: translate(-20vw, -1vw);
+	font-size: 4vw;
+}
+.banner{
+	margin-left: auto;
+	width: 20%;
+	max-width: 100%;
+	height: auto;
+	width: 90vw;
+}
+.links{
+	display: inline-block;
+	padding-left: 2.5vw;
+	margin: 2vw;
+	
+}
+.link_buttons{
+	display: block;
+	width: 7vw;
+	height:3.6vw;
+	color:#5365ed;
+	background-color: #f7f6b2;
+	border-style: solid;
+	border-spacing: 2em;
+	border-radius: 30%;
+	border-color: black;
+	float: left;
+	margin: 2vw;
+	font-size: 1vw;
+	font-family:verdana;
+	text-align: center;
+	padding-top: .5vw;
+	padding-bottom: .75vw;
+
+		
+}
+.pHeading{
+	font-size: 4em;
+	text-align: center;
+}
+p{
+	font-size: 2em;
+}
+.mainList{
+	list-style-type: decimal;
+	font-size: 2em;
+}
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+.lowerLinks{
+	display: inline-block;
+	padding-left: 20%;
+
+}
+.link_buttons_lower{
+	display: block;
+	width: 7vw;
+	height:3.6vw;
+	color:black;
+	background-color: white;
+	border-style: solid;
+	border-spacing: 2em;
+	border-radius: 30%;
+	border-color: black;
+	float: left;
+	margin: 4vw;
+	font-size: 1vw;
+	font-family:verdana;
+	text-align: center;
+	padding-top: 1vw;
+}
